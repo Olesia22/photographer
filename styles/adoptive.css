@@ -1,0 +1,230 @@
+@media screen and (max-width: 1023px) {
+
+	.container{
+		padding: 0 10px;
+	}
+
+	.header .header_nav {
+		display: none;
+	}
+
+	.person h1 {
+		font-size: 32px;
+		padding-bottom: 40px;
+	}
+
+	.person .person_subtitle {
+		line-height: 24.2px;
+		padding-bottom: 60px;
+	}
+
+	.person .btn {
+		height: 54px;
+		padding: 0;
+	}
+
+	.portfolio_buttons {
+		width: 445px;
+		margin: 0 auto;
+	}
+
+	.skills .skills_cards {
+		justify-content: center;
+		gap: 70px;
+	}
+
+	.video_bg {
+		height: 418px;
+	}
+
+	.title_group h2  {
+		font-size: 32px;
+	}
+
+	.title_group_line {
+		width: 90px;
+	}
+
+	.price .price_cards {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.price .price_card {
+		width: 420px;
+		margin-bottom: 50px;
+	}
+
+	.price .price_card:last-child {
+		margin-bottom: 0;
+	}
+
+	form {
+		padding: 50px 0 111px 0;
+		box-sizing: border-box;
+		width: 450px;
+	}
+
+	form input, textarea {
+		background-color: #00000080;
+		box-sizing: border-box;
+	}
+
+	.contact .contact_title {
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.contact .contact_form {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.contact .btn:hover {
+		background-color: #00000080;
+	}
+
+	.footer {
+		padding: 28px 0;
+	}
+
+	.footer_content {
+		flex-direction: column;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+ .person {
+    padding: 125px 30px;
+		text-align: center;
+	}
+
+	.person .person_subtitle {
+		margin: 0 auto;
+		width: 435px;
+	}
+
+	.price .price_card {
+		width: 350px;
+	}
+
+	.person .person_subtitle {
+		width: 410px;
+	}
+}
+
+@media screen and (max-width: 458px) {
+
+	.portfolio_buttons {
+		width: 100%;
+	}
+
+	.portfolio_gallary {
+		padding: 0 15px;
+	}
+
+	.portfolio .portfolio_gallary img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.person .person_subtitle {
+		width: 365px;
+	}
+
+}
+
+@media screen and (max-width: 424px) {
+
+	.price .price_card {
+		width: 320px;
+	}
+
+	.person .person_subtitle {
+		width: 320px;
+	}
+
+	.skill_card_icon {
+		margin-bottom: 25px;
+	}
+
+	form {
+		width: 400px;
+	}
+
+}
+
+@media screen and (max-width: 374px) {
+
+	.title_group_line {
+		width: 30px;
+	}
+	.person {
+		padding: 125px 10px;
+	}
+	.person .person_subtitle {
+		width: 315px;
+	}
+
+	.skills {
+    padding-top: 80px;
+	}
+
+	.title_group {
+		padding-bottom: 30px;
+	}
+
+	.skill_card_subtitle {
+		line-height: 1;
+	}
+
+	.portfolio_buttons {
+		width: 100%;
+	}
+
+	.portfolio_buttons {
+		gap: 10px;
+	}
+
+	.price .price_card {
+		width: 300px;
+	}
+
+	.price_subtitle {
+		line-height: 30px;
+	}
+
+	.price_card {
+		padding: 30px 0;
+	}
+
+	.price_title {
+		padding-bottom: 0;
+	}
+
+	.price_cost {
+		padding-bottom: 15px;
+	}
+
+	.footer {
+		padding: 20px 0;
+	}
+
+	form {
+		width: 300px;
+	}
+
+	.contact_form input {
+		width: 100%;
+	}
+	.footer_year, .footer_name  {
+		font-size: 16px;
+		line-height: 40px;
+	}
+
+	.footer_social_link svg {
+		width: 20px;
+	}
+}
